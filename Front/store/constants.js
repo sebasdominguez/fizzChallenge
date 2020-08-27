@@ -1,0 +1,8 @@
+//HEADER
+export const FETCH_MENU = "FETCH_MENU";
+
+//BODY
+export const FETCH_BODY = "FETCH_BODY";
+
+//RENDER BY FILTERS
+export const SET_FILTERS = "SET_FILTERS";
