@@ -32,13 +32,13 @@
 
 Ante todo, dependiendo como arribaste a este proyecto, Forkeá-Cloná / Descargá el repositorio.
 
-*Opción óptima (con Docker):
+* Opción óptima (con Docker):
 1. Poné a correr Docker en tu ordenador.
 2. En la Terminal, posicionado sobre el root, ejecutar `docker build -t nombre .` (nombre: elegí el que desees)
 3. Cuando finalice de construir la 'imagen', ejecutar `docker run -p 1337:1337 fizzchallengesebas`
 4. La App te espera en el browser: <a href="http://localhost:1337/">PUERTO 1337</a>
 
-*Opción sin Docker:
+* Opción sin Docker:
 1. En la Terminal, posicionado sobre el root, ejecutar `npm -i`.
 2. Luego ejecutar `npm start`.
 3. La App te espera en el browser: <a href="http://localhost:1337/">PUERTO 1337</a>
