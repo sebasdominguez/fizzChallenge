@@ -31,31 +31,31 @@
 
 <dt>Instalación / Start Point</dt>
 
-a. Forkeá-Cloná / Descargá este repositorio.
+Ante todo, dependiendo como arribaste a este proyecto, Forkeá-Cloná / Descargá el repositorio.
 
 Opción óptima (con Docker):
-b. Poné a correr Docker en tu ordenador.
-c. En la Terminal, posicionado sobre el root, ejecutar `docker build -t nombre .` (nombre: elegí el que desees)
-d. Cuando finalice de construir la 'imagen', ejecutar `docker run -p 1337:1337 fizzchallengesebas`
-e. La App te espera en el browser: <a href="http://localhost:1337/">PUERTO 1337</a>
+1. Poné a correr Docker en tu ordenador.
+2. En la Terminal, posicionado sobre el root, ejecutar `docker build -t nombre .` (nombre: elegí el que desees)
+3. Cuando finalice de construir la 'imagen', ejecutar `docker run -p 1337:1337 fizzchallengesebas`
+4. La App te espera en el browser: <a href="http://localhost:1337/">PUERTO 1337</a>
 
 Opción sin Docker:
-b. En la Terminal, posicionado sobre el root, ejecutar `npm -i`.
-c. Luego ejecutar `npm start`.
-d. La App te espera en el browser: <a href="http://localhost:1337/">PUERTO 1337</a>
+1. En la Terminal, posicionado sobre el root, ejecutar `npm -i`.
+2. Luego ejecutar `npm start`.
+3. La App te espera en el browser: <a href="http://localhost:1337/">PUERTO 1337</a>
 
 
 
 ### Consideraciones
 
-1) Icos: para abarcar mayores herramientas, implementé 2 distintas formas de utilizar IcoMoon. 
-   a)Através de la hoja de estilos (pj: componente "Products").
-   b)atraves del .json (pj: componente Header).
+1. Icos: para abarcar mayores herramientas, implementé 2 distintas formas de utilizar IcoMoon. 
+* Através de la hoja de estilos (pj: componente "Products").
+* Atraves del .json (pj: componente Header).
 
-2) React-Redux: hago uso del Store de Redux simplemente para dejar preparada la app entendiendo que el proyecto real debe contener demás secciones. De no haberlo pensado de esta manera, tranquilamente se resolvía todo con los estados locales de los respectivos componentes.
+2. React-Redux: hago uso del Store de Redux simplemente para dejar preparada la app entendiendo que el proyecto real debe contener demás secciones. De no haberlo pensado de esta manera, tranquilamente se resolvía todo con los estados locales de los respectivos componentes.
 
-3) Filtros: implementé el mayor grado de filtro posible. Consideré una logica relacional, y no inclusiva. Es decir, se muestras productos por pantalla siempre y cuando se cumpla:
-   a) Filtros con 1 solo "field": inclusivo (recolecta todos los productos que al menos cumplan con 1 filtro de dicho field.
-   b) Filtros con + de 1 "field" (en nuestro caso Marcas y Categorías): los productos a mostrar deben cumplir al menos 1 campo de cada field pedidos.
+3. Filtros: implementé el mayor grado de filtro posible. Consideré una logica relacional, y no inclusiva. Es decir, se muestras productos por pantalla siempre y cuando se cumpla:
+* Filtros con 1 solo "field": inclusivo (recolecta todos los productos que al menos cumplan con 1 filtro de dicho field.
+* Filtros con + de 1 "field" (en nuestro caso Marcas y Categorías): los productos a mostrar deben cumplir al menos 1 campo de cada field pedidos.
 
-4) WebApp: está diseñado para Web, como también para Mobile (ver videos Demo)
+4. WebApp: está diseñado para Web, como también para Mobile (ver videos Demo)
