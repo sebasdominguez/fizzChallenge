@@ -49,7 +49,7 @@ Ante todo, dependiendo como arribaste a este proyecto, Forkeá-Cloná / Descarg�
 
 1. Icos: para abarcar mayores herramientas, implementé 2 distintas formas de utilizar IcoMoon. 
 * Através de la hoja de estilos (pj: componente "Products").
-* Atraves del .json (pj: componente Header).
+* Atraves del .json (pj: componente "Header").
 
 2. React-Redux: hago uso del Store de Redux simplemente para dejar preparada la app entendiendo que el proyecto real debe contener demás secciones. De no haberlo pensado de esta manera, tranquilamente se resolvía todo con los estados locales de los respectivos componentes.
 
