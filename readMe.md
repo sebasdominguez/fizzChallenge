@@ -1,5 +1,5 @@
 
-<div align="center"><strong>FIZZMOD CHALLENGE</strong></div>
+<div align="center"><strong>CHALLENGE HOMEPAGE PARA ECOMMERCE</strong></div>
 <div align="center">SEBASTIAN DOMINGUEZ</div>
 <dl>
 
