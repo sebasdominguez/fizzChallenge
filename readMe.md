@@ -3,13 +3,12 @@
 <div align="center">SEBASTIAN DOMINGUEZ</div>
 <dl>
 
-  <dt>CONEXION CON API DE LA EMPRESA</dt>
+  <dt>CONEXION CON API DE LA EMPRESA</dt><br />
 
   <dd>Esta app se comunica en cada acción para recuperar y renderizar datos.</dd>
 
 
-  <dt>VIDEOS DEMO</dt>
-
+  <dt>VIDEOS DEMO</dt><br />
   <dd>* <a href="https://www.dropbox.com/s/07ufmanti9o9a1b/vidWeb.mov?dl=0">Versión Web</a></dd>
   <dd>* <a href="https://www.dropbox.com/s/9mzswszthrh0v9z/vidMobile.mov?dl=0">Versión Mobile</a></dd>
 
@@ -18,28 +17,28 @@
 
 ## Techs & Herramientas Utilizadas
 
-1.  React.<br />
-2.  React-Redux.<br />
-3.  React-Hooks.<br />
-4.  Styled Components.<br />
-5.  Sass.<br />
-6.  Express.<br />
-7.  Webpack.<br />
-8.  Axios.<br />
-9.  Docker.<br />
+* React.<br />
+* React-Redux.<br />
+* React-Hooks.<br />
+* Styled Components.<br />
+* Sass.<br />
+* Express.<br />
+* Webpack.<br />
+* Axios.<br />
+* Docker.<br />
 
 
-<dt>Instalación / Start Point</dt>
+### Instalación / Start Point</dt>
 
 Ante todo, dependiendo como arribaste a este proyecto, Forkeá-Cloná / Descargá el repositorio.
 
-Opción óptima (con Docker):
+*Opción óptima (con Docker):
 1. Poné a correr Docker en tu ordenador.
 2. En la Terminal, posicionado sobre el root, ejecutar `docker build -t nombre .` (nombre: elegí el que desees)
 3. Cuando finalice de construir la 'imagen', ejecutar `docker run -p 1337:1337 fizzchallengesebas`
 4. La App te espera en el browser: <a href="http://localhost:1337/">PUERTO 1337</a>
 
-Opción sin Docker:
+*Opción sin Docker:
 1. En la Terminal, posicionado sobre el root, ejecutar `npm -i`.
 2. Luego ejecutar `npm start`.
 3. La App te espera en el browser: <a href="http://localhost:1337/">PUERTO 1337</a>
